@@ -41,6 +41,7 @@ Ensure that your environment matches these specifications to avoid compatibility
 Before running the analysis, ensure that:
 - Your Python environment is set up with the specified package versions.
 - Your system meets the hardware requirements mentioned above.
+- The datasets are extracted fri=om the zip file and are stored at the same location as the notebook
 
 ### Instructions:
 1. **Initial Setup:**
