@@ -59,10 +59,9 @@ Before running the analysis, ensure that:
 
      
 ### Running Time:
-- **NMF and LDA Models**: Each takes approximately 2 hours and 30 minutes to run. Ensure you allocate enough time for these processes.
-- **Sentiment Analysis**: Takes about 3 hours to run for the two datasets when utilizing a GPU. Ensure your system is equipped with a compatible NVIDIA GPU and the correct CUDA version to facilitate this process.
+- **NMF and LDA Models**: Each takes approximately 2 hours and 30 minutes to run  for the two datasets.
+- **Sentiment Analysis**: Takes about 3 hours to run for the two datasets when utilizing a GPU.
   
-It's important to note that the running times are estimates and can vary based on your system's specifications and current workload. Running these processes in a system with a GPU will significantly reduce the time taken compared to a CPU-only setup.
 
 
 ### Note:
