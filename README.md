@@ -24,10 +24,10 @@ Ensure that your environment matches these specifications to avoid compatibility
 ## Software Requirements
 
 ### Operating System:
-- **Windows 10**: Ensure all system updates are applied for best compatibility.
+- **Windows 10**
 
 ### Python:
-- **Version**: Python 3.8. Ensure Python is installed and properly set up in your environment.
+- **Version**: Python 3.8. 
 
 ### Package Management:
 - **pip**: Utilize `pip` for package installations. 
