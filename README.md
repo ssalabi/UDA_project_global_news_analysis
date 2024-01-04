@@ -1,1 +1,48 @@
 # GLOBAL NEWS ANALYSIS WEEK 2017-2018
+
+## Environment
+This project is set up with the following package versions:
+- pandas: 1.4.3
+- gensim: 4.3.2
+- scikit-learn (sklearn): 1.3.2
+- joblib: 1.2.0
+- matplotlib: 3.7.2
+- seaborn: 0.12.2
+- numpy: 1.22.2
+- nltk: 3.7
+- torch: 1.11.0+cu113
+- transformers: 4.36.2
+- textblob: 0.17.1
+- tqdm: 4.62.1
+- wordcloud: 1.9.3
+
+Ensure that your environment matches these specifications to avoid compatibility issues.
+
+## Hardware Requirements
+- **GPU:** NVIDIA GeForce RTX 3070 Laptop GPU. This project is optimized for CUDA-enabled GPUs for faster computation.
+
+## How to Run
+
+### Pre-requisites:
+Before running the analysis, ensure that:
+- Your Python environment is set up with the specified package versions.
+- Your system meets the hardware requirements mentioned above.
+
+### Instructions:
+1. **Initial Setup:**
+   - Do not run the introduction cells. They contain environment setup and are meant for informational purposes only.
+
+2. **Running the Analysis:**
+   - Start from the section titled **1. Data Selection and Preparation**. You can run all cells in this section until the end of the notebook.
+   - The analysis is divided into three main sections:
+     1. **Data Selection and Preparation:** This section includes loading the data, initial preprocessing, and setting up the data for analysis.
+     2. **Exploratory Data Analysis (EDA):** Here, we perform a general analysis to understand the trends, patterns, and anomalies in the data.
+     3. **Advanced Text Analysis:** This section dives deeper into text analytics, utilizing NLP techniques to extract meaningful insights from news content.
+
+   - At the beginning of each section, the necessary packages are listed. Ensure they are installed and imported before proceeding with that section.
+   - Dataframes are stored at each crucial point. This allows for rerunning specific sections independently if needed without having to process the entire notebook again.
+
+### Note:
+- Ensure you use the exact versions of the packages listed, especially for scikit-learn (sklearn). The KMeans clustering used in this project may yield different results if a different version of sklearn is used, even when setting a random seed.
+
+By following these instructions, you should be able to run the analysis smoothly and explore the global news trends for the weeks of 2017-2018. Happy Analyzing!
