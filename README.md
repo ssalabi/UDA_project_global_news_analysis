@@ -1,7 +1,7 @@
 # GLOBAL NEWS ANALYSIS WEEK 2017-2018
 
 ## Data Files:
-- **Datasets**: Ensure you have extracted the datasets `english_only_news-week-17aug17.csv` and `english_only_news-week-17aug24.csv` from the provided zip file. Place these files in the same directory as the project notebook for the code to run correctly.
+- **Datasets**: Ensure you have extracted the 2 datasets `english_only_news-week-17aug17.csv` and `english_only_news-week-17aug24.csv` from the provided zip file `datasets.zip`. Place these files in the same directory as the project notebook for the code to run correctly.
 
 ## Environment
 This project is set up with the following package versions:
