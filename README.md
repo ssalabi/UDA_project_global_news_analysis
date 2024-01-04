@@ -18,6 +18,17 @@ This project is set up with the following package versions:
 
 Ensure that your environment matches these specifications to avoid compatibility issues.
 
+## Software Requirements
+
+### Operating System:
+- **Windows 10**: Ensure all system updates are applied for best compatibility.
+
+### Python:
+- **Version**: Python 3.8. Ensure Python is installed and properly set up in your environment.
+
+### Package Management:
+- **pip**: Utilize `pip` for package installations. 
+
 ## Hardware Requirements
 - **GPU:** NVIDIA GeForce RTX 3070 Laptop GPU. This project is optimized for CUDA-enabled GPUs for faster computation.
 
