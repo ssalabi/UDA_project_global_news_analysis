@@ -1,1 +1,1 @@
-# UDA_project_global_news_analysis
+# GLOBAL NEWS ANALYSIS WEEK 2017-2018
