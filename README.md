@@ -57,6 +57,14 @@ Before running the analysis, ensure that:
    - At the beginning of each section, the necessary packages are listed. Ensure they are installed and imported before proceeding with that section.
    - Dataframes are stored at each crucial point. This allows for rerunning specific sections independently if needed without having to process the entire notebook again.
 
+     
+### Running Time:
+- **NMF and LDA Models**: Each takes approximately 2 hours and 30 minutes to run. Ensure you allocate enough time for these processes.
+- **Sentiment Analysis**: Takes about 3 hours to run for the two datasets when utilizing a GPU. Ensure your system is equipped with a compatible NVIDIA GPU and the correct CUDA version to facilitate this process.
+  
+It's important to note that the running times are estimates and can vary based on your system's specifications and current workload. Running these processes in a system with a GPU will significantly reduce the time taken compared to a CPU-only setup.
+
+
 ### Note:
 - Ensure you use the exact versions of the packages listed, especially for scikit-learn (sklearn). The KMeans clustering used in this project may yield different results if a different version of sklearn is used, even when setting a random seed.
 
